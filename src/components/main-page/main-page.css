@@ -1,0 +1,7 @@
+
+.main-page-container {
+    height: 70%;
+    position: relative;
+    background: url('../../img/backgroung-img/background-img-1.jpeg'), lightgray 50% / cover no-repeat;
+  }
+  
