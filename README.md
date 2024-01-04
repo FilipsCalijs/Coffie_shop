@@ -49,3 +49,6 @@ Welcome to our Coffee Shop React application! This simple web app allows users t
 - Click on items to view details and add them to the cart.
 - Go to the cart to review your selected items and remove any unwanted items.
 - Proceed to checkout and place your order.
+
+
+add some nonesance
