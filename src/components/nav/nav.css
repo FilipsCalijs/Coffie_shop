@@ -1,10 +1,12 @@
 nav ul {
-  padding-top: 20px;
+  padding-top: 30px;
+  padding-left: 15px;
   margin-top: 0;
   
   list-style: none;
   display: flex;
   align-items: center;
+  
 }
 
 nav ul li:not(:nth-child(2)) {
@@ -15,5 +17,15 @@ nav ul li:first-child {
 }
 nav ul li a {
   text-decoration: none;
-  color: black;
+  color: #FFF;
+  font-family: Merienda;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.logo-name{
+  width: 35px;
+  height: 35px;
+  flex-shrink: 0;
 }

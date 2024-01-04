@@ -4,8 +4,84 @@
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     font-family: Merienda, cursive;
     font-size: 40px;
-    margin-top: 60px;
+    margin: 60px 0 20px 0;
+
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 35px;
+    
+  }
+  
+  .line {
+    width: 60px;
+    height: 1px;
+    background-color: white; 
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  .logo {
+    width: 29.302px;
+    height: 29.302px;
+    flex-shrink: 0;
+    margin: 0 25px 0 25px;
+
+  }
+
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+  }
+  
+  .text {
+    color: #FFF;
+    font-family: Merienda;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    margin-bottom: 20px; 
+  }
+  .text:last-child{
+    margin-bottom: 13px; 
+  }
+
+  
+.button-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 200px;
+
+    
+  }
+  
+  .button {
+    margin: 5px;
+    color: white;
+    border-radius: 3px;
+    border: 1px solid #FFF;
+    font-family: Merienda;
+    background: rgba(196, 196, 196, 0.00);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 120px;
+    height: 30px;
+    color: #FFF;
+    font-family: Merienda;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 5px 42px 10px 42px;
   }
