@@ -1,0 +1,9 @@
+.bg_best_proj{
+    background: url('../../img/backgroung-img/paper-1074131_1920.png'), lightgray 50% / cover no-repeat;
+    
+}
+.item_content_inner{
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

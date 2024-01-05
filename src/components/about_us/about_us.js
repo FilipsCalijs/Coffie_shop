@@ -1,4 +1,4 @@
-import './footer.css';
+import './about_us.css';
 import LogoImg from '../../img/logo/Group.png';
 
 function Logo_banner_black() {
@@ -11,9 +11,9 @@ function Logo_banner_black() {
   );
 }
 
-function Footer() {
+function About_us() {
   return (
-    <div className="Footer_container">
+    <div className="about_us_container">
       <div className='About_title'> About us</div>
       <Logo_banner_black />
       <div className='About_text'>Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
@@ -32,4 +32,4 @@ function Footer() {
   );
 }
 
-export default Footer;
+export default About_us;

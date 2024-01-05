@@ -1,0 +1,24 @@
+.conteiner-item{
+    width: 220px;
+    height: 240px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.65);
+    padding: 20px;
+    
+}
+
+.item_img{
+    width: 151px;
+    height: 130px;
+    flex-shrink: 0;
+}
+.item_title{
+
+    font-size: 14px;
+
+}
+.item_price{
+    font-size: 14px;
+    text-align: end;
+    font-weight: 700;
+}
