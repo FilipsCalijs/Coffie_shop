@@ -1,9 +1,10 @@
 import './footer.css';
 import LogoImg from '../../img/logo/Group.png';
+import LogoFooter from '../../img/logo/coffee-beans__3.svg'
 
 function Logo_banner_black() {
   return (
-    <div className="container">
+    <div className="container" >
       <div className="line_black"></div>
       <img src={LogoImg} className="logo" alt="Logo" />
       <div className="line_black"></div>
@@ -14,21 +15,21 @@ function Logo_banner_black() {
 function Footer() {
   return (
     <div className="Footer_container">
-      <div className='About_title'> About us</div>
+      
+      
+      
+        <nav>
+          
+        <ul style={{ justifyContent: 'center', paddingTop: '0'}}>
+            <li style={{marginLeft: '0'}}><a href="#"><img className='logo-name' src={LogoFooter} alt="logo" /></a></li>
+            <li><a style={{ color: 'black' }} href="#">Coffee house</a></li>
+            <li><a style={{ color: 'black' }} href="#">Our coffee</a></li>
+            <li><a style={{ color: 'black' }} href="#">For your pleasure</a></li>
+        </ul>
+      </nav>
       <Logo_banner_black />
-      <div className='About_text'>Extremity sweetness difficult behaviour he of. On disposal of as landlord horrible.
-          Afraid at highly months do things on at. Situation recommend objection do intention
-          so questions. As greatly removed calling pleased improve an. Last ask him cold feel
-          met spot shy want. Children me laughing we prospect answered followed. At it went
-          is song that held help face.
-          <p></p>
-          Now residence dashwoods she excellent you. Shade being under his bed her, Much
-          read on as draw. Blessing for ignorant exercise any yourself unpacked. Pleasant
-          horrible but confined day end marriage. Eagerness furniture set preserved far
-          recommend. Did even but nor are most gave hope. Secure active living depend son
-          repair day ladies now.
-      </div>
     </div>
+
   );
 }
 

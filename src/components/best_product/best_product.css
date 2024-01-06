@@ -1,9 +1,20 @@
 .bg_best_proj{
-    background: url('../../img/backgroung-img/paper-1074131_1920.png'), lightgray 50% / cover no-repeat;
+    background: url('../../img/backgroung-img/paper-1074131_1920.png'), lightgray 50%;
+    background-position: center center;
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
     
 }
 .item_content_inner{
     display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  padding: 39px 0 100px 0;
+}
+
+.Our_best{
+  padding-top: 80px ;
 }

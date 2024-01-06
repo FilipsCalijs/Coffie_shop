@@ -13,7 +13,7 @@ const best_prod = (props) => {
 
   return(
     <div className='bg_best_proj'>
-      <h2>Our Best</h2>
+      <h2 className='Our_best'>Our Best</h2>
       <div className='item_content_inner'>
         {products}
       </div>

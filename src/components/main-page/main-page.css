@@ -4,5 +4,12 @@
     position: relative;
 
     background: url('../../img/backgroung-img/background-img-1.jpeg'), lightgray 100% / cover no-repeat;
+    background-position: center center;
+
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
   }
   
